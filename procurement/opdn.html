@@ -3,7 +3,7 @@
 
 <head>
 <meta charset="utf-8">
-<title>Procurement | Help Center</title>
+<title>Procurement Delivery | Help Center</title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <meta content="" name="keywords">
 <meta content="" name="description">
@@ -39,7 +39,7 @@
     <div class="nav-shaps-2"></div>
     <div class="container d-flex align-items-center">
         <div class="d-flex align-items-center h-100">
-            <a href="home.html" class="navbar-brand" style="height: 125px;">
+            <a href="../home.html" class="navbar-brand" style="height: 125px;">
                 <!-- <h1 class="text-primary mb-0"><i class="fas fa-hand-rock me-2"></i> Fitness</h1> -->
                 <img src="/img/logo/logo.png" alt="Logo">
             </a>
@@ -101,6 +101,12 @@
                     <li class="mb-3"> <b>Dashboard:</b> 
                       Click to return to the main dashboard overview.
                     </li>
+                    <li class="mb-3"> 
+                      <a href="new_opdn.html" class="btn btn-primary">
+                          <span>New OPDN</span>
+                      </a>
+                      Generates a new Overseas Procurement Delivery Note.
+                    </li>
                     <li class="mb-3"> <b>Back:</b> 
                       Go back to the previous page you visited.
                     </li>
@@ -116,7 +122,8 @@
                   </h1>
 
                   <p class="mb-4 fs-4 fw-semibold text-white wow fadeInUp" data-wow-delay="0.2s">
-                    Each tab on the Overseas Procurement page filters records based on their current status in the procurement workflow:
+                    Each tab on the Overseas Procurement page filters records based on their 
+                    current status in the procurement workflow:
                   </p> 
 
                   <ol class="fs-5 text-white wow fadeInUp" data-wow-delay="0.2s">
@@ -140,38 +147,6 @@
                     </li>
                   </ol>
                   <!-- Tabs Explained Ends -->
-
-                  <!-- Overseas Procurement Request Slips Begins -->
-                  <h1 class="display-4 text-white wow fadeInUp mt-5" data-wow-delay="0.2s">
-                    <span class="fas fa-file-alt text-dark me-3"></span>
-                    Overseas Procurement Request Slips
-                  </h1>
-
-                  <p class="mb-4 fs-4 fw-semibold text-white wow fadeInUp" data-wow-delay="0.2s">
-                    This module displays procurement requests initiated for overseas supplies. Each 
-                    request goes through the following key stages:
-                  </p> 
-                    
-                  <ol class="fs-5 text-white wow fadeInUp" data-wow-delay="0.2s">
-                    <li class="mb-3"><strong>Date of Request</strong>
-                    </li>
-                    <li class="mb-3"><strong>Requisition Number</strong></li>
-                    <li class="mb-3"><strong>Project & Requesting Officer</strong></li>
-                    <li class="mb-3"><strong>Authorisation</strong>
-                    </li>
-                    <li class="mb-3"><strong>Approval</strong>
-                    </li>
-                    <li class="mb-3"><strong>Dispatch</strong>
-                    </li>
-                    <li class="mb-3"><strong>Acknowledgement</strong>
-                    </li>
-                    <li class="mb-3">
-                      <a href="new_edit_table.html" class="btn btn-primary">
-                          <span>Edit</span>
-                      </a>
-                    </li>
-                  </ol>
-                  <!-- Overseas Procurement Request Slips Ends -->
                 </div>
             </div>
         </div> 
@@ -189,7 +164,7 @@
                 <!-- Overseas Procurement Delivery Begins -->
                 <h1 class="display-4 darkblue wow fadeInUp" data-wow-delay="0.2s">
                   <span class="fas fa-shipping-fast text-dark  me-3"></span>
-                  Overseas Procurement Delivery
+                  Overseas Procurement Delivery Notes
                 </h1>
 
                 <p class="mb-4 fs-4 fw-semibold darkblue wow fadeInUp" data-wow-delay="0.2s">
@@ -204,56 +179,62 @@
                   </li>
                   <li class="mb-3"><strong>Project & Requesting Officer</strong>
                   </li>
-                  <li class="mb-3"><strong>Status of Submission, Dispatch, Reception, and Acknowledgement</strong>
+                  <li class="mb-3"><strong>Status of Submission</strong>
+                  </li>
+                  <li class="mb-3"><strong>Dispatch</strong>
+                  </li>
+                  <li class="mb-3"><strong>Reception</strong>
+                  </li>
+                  <li class="mb-3"><strong>Acknowledgement</strong>
                   </li>
                   <li class="mb-3">
-                    <a href="new_edit_table.html" class="btn btn-primary">
+                    <a href="new_opdn.html" class="btn btn-primary">
                         <span>Edit</span>
                     </a>
                   </li>
                 </ol>
                 <!-- Overseas Procurement Delivery Ends -->
 
-                  <!-- Navigating Table Efficiently Begins -->
-                  <h1 class="display-4 darkblue wow fadeInUp" data-wow-delay="0.2s">
-                    <span class="fas fa-table text-dark me-3 mt-5"></span>
-                    Navigating and Using the Table Efficiently
-                  </h1>
+                <!-- Navigating Table Efficiently Begins -->
+                <h1 class="display-4 darkblue wow fadeInUp" data-wow-delay="0.2s">
+                  <span class="fas fa-table text-dark me-3 mt-5"></span>
+                  Navigating and Using the Table Efficiently
+                </h1>
 
-                  <p class="mb-4 fs-4 fw-semibold text-dark wow fadeInUp" data-wow-delay="0.2s">
-                    To make the most of each of the Overseas Procurement table, the platform 
-                    provides multiple user-friendly tools to help you find, view, and analyze records quickly:
-                  </p> 
-                    
-                  <ol class="fs-5 text-dark wow fadeInUp" data-wow-delay="0.2s">
-                    <li class="mb-3"><strong>Search Input:</strong>
-                        Located above the top-right corner of the table, this feature allows you to 
-                        instantly filter results by typing keywords such as Req. No, Project, Requesting Officer,
-                        or any relevant value. The results are updated in real time as you type.
-                    </li>
-                    <li class="mb-3"><strong>Records per Page Dropdown:</strong>
-                        Found on the top-left of the table, this dropdown allows you to control 
-                        how many entries are visible at once. You can expand the view from 10 
-                        to 25, 50, or more records per page for broader visibility.
-                    </li>
-                    <li class="mb-3"><strong>Pagination Controls:</strong>
-                        Below the table, you’ll find numbered 
-                        buttons (1, 2, 3…) that let you navigate between pages. Simply click on any 
-                        page number or use “Previous” and “Next” to move through the records.
-                    </li>
-                    <li class="mb-3"><strong>Sortable Columns:</strong>
-                        Each table header has a small arrow icon. Clicking on these 
-                        arrows allows you to sort the table data in either ascending or 
-                        descending order based on that column (e.g., by Date, Net Amount, Vendor, etc.).
-                    </li>
-                  </ol>
+                <p class="mb-4 fs-4 fw-semibold text-dark wow fadeInUp" data-wow-delay="0.2s">
+                  To make the most of each of the Overseas Procurement table, the platform 
+                  provides multiple user-friendly tools to help you find, view, and analyze records quickly:
+                </p> 
                   
-                  <p class="mb-4 fs-4 fw-bold text-dark wow fadeInUp mt-5" data-wow-delay="0.2s">
-                    <i class="fas fs-1 fa-lightbulb text-success me-2 wow fadeInLeft" data-wow-delay="0.2s"></i> 
-                    Pro Tip: These tools are designed to streamline your workflow, helping you 
-                    access and manage large datasets with ease and precision.
-                  </p>                  
-                  <!-- Navigating Table Efficiently Ends -->
+                <ol class="fs-5 text-dark wow fadeInUp" data-wow-delay="0.2s">
+                  <li class="mb-3"><strong>Search Input:</strong>
+                      Located above the top-right corner of the table, this feature allows you to 
+                      instantly filter results by typing keywords such as Req. No, Project, Requesting Officer,
+                      or any relevant value. The results are updated in real time as you type.
+                  </li>
+                  <li class="mb-3"><strong>Records per Page Dropdown:</strong>
+                      Found on the top-left of the table, this dropdown allows you to control 
+                      how many entries are visible at once. You can expand the view from 10 
+                      to 25, 50, or more records per page for broader visibility.
+                  </li>
+                  <li class="mb-3"><strong>Pagination Controls:</strong>
+                      Below the table, you’ll find numbered 
+                      buttons (1, 2, 3…) that let you navigate between pages. Simply click on any 
+                      page number or use “Previous” and “Next” to move through the records.
+                  </li>
+                  <li class="mb-3"><strong>Sortable Columns:</strong>
+                      Each table header has a small arrow icon. Clicking on these 
+                      arrows allows you to sort the table data in either ascending or 
+                      descending order based on that column (e.g., by Date, Net Amount, Vendor, etc.).
+                  </li>
+                </ol>
+                
+                <p class="mb-4 fs-4 fw-bold text-dark wow fadeInUp mt-5" data-wow-delay="0.2s">
+                  <i class="fas fs-1 fa-lightbulb text-success me-2 wow fadeInLeft" data-wow-delay="0.2s"></i> 
+                  Pro Tip: These tools are designed to streamline your workflow, helping you 
+                  access and manage large datasets with ease and precision.
+                </p>                  
+                <!-- Navigating Table Efficiently Ends -->
               </div>
           </div>
       </div>
